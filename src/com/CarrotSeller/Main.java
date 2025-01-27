@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         CarrotSeller seller1 = new CarrotSeller(); // first carrot seller
 
-        seller1.setName("Andrej Baviš"); // Setting the information of the first carrot seller
+        seller1.setName("Andrej Bavíš"); // Setting the information of the first carrot seller
         seller1.setAddress("Mrkvičková 1, Bratislava");
         seller1.setDateOfBirth(LocalDate.of(1960, 7, 1));
         seller1.setNumberOfContracts(20);
@@ -25,6 +25,7 @@ public class Main {
         seller2.setLicencePlate("2CD3456");
         seller2.setConsumptionPerKm(11.5);
 
-        System.out.println("Prodejce 1: >*<}{@&#
+        System.out.println("Prodejce 1: " + seller1.getName());
+        System.out.println("Prodejce 2: " + seller2.getName());
     }
 }
